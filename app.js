@@ -7,7 +7,7 @@ const methodOverride = require('method-override');
 const session = require('express-session');
 const flash = require('connect-flash');
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/db_mern_staycation', {
+mongoose.connect('mongodb+srv://server-staycation:bwamern@cluster0.3timd.mongodb.net/db_staycation?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
